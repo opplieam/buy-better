@@ -33,19 +33,19 @@ being scraped, it will automatically match to the existing system)
 This part is where the user interact for both frontend and backend. I design to be the scalable, I will talk later
 in the design choice section.
 
+## List of services
+- [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) *Details implementation
+- [Buy-Better Admin UI](https://github.com/opplieam/bb-admin-ui) *Details implementation
+- [Buy-Better Core API](https://github.com/opplieam/bb-core-api)
+- [Buy-Better Core UIi](https://github.com/opplieam/bb-core-ui)
+- [Buy-Better Centralized proto](https://github.com/opplieam/bb-grpc)
+- [Buy-Better Product service](https://github.com/opplieam/bb-product-server)
+- ~~[Buy-Better web scraping]~~  I take down the service due to the banning issue
+
 ## Overall database diagrams
 ![db-admin](https://github.com/opplieam/bb-admin-api/raw/main/Buy-Better-Admin.png?raw=true)
 ![dbcore](https://github.com/opplieam/bb-core-api/blob/main/Buy-Better-Core.png?raw=true)
 This is not a final design.
-
-## List of services
-- [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) *Details implementation 
-- [Buy-Better Admin UI](https://github.com/opplieam/bb-admin-ui) *Details implementation
-- [Buy-Better Core API](https://github.com/opplieam/bb-core-api) 
-- [Buy-Better Core UIi](https://github.com/opplieam/bb-core-ui) 
-- [Buy-Better Centralized proto](https://github.com/opplieam/bb-grpc) 
-- [Buy-Better Product service](https://github.com/opplieam/bb-product-server)
-- ~~[Buy-Better web scraping]~~  I take down the service due to the banning issue
 
 ## Overall Tech stack
 ### Web scraping
