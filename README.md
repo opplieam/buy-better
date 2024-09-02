@@ -2,6 +2,15 @@
 
 This is an entry point for Buy Better project. It contains the big picture of project.
 
+## Table of contents
+- [Overview](#overview)
+- [Overall Architect](#overall-architect)
+- [LIST OF ALL REPOSITORY](#list-of-services)
+- [Overall database diagrams](#overall-database-diagrams)
+- [Overall Tech stack](#overall-tech-stack)
+- [Design choice](#design-choice)
+- [To Learn List](#to-learn)
+
 ## Overview
 We are in an era of online shopping/ecommerce. Unfortunate, There are only 2 big ecommerce in my country to use. 
 So I have a limited choice. The pain point here is the price showing is fluctuate between a days or weeks. 
