@@ -44,12 +44,12 @@ in the design choice section.
 
 ## List of services
 - [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) *Details implementation
-- [Buy-Better Admin UI](https://github.com/opplieam/bb-admin-ui) *Details implementation
-- [Buy-Better Core API](https://github.com/opplieam/bb-core-api)
-- [Buy-Better Core UIi](https://github.com/opplieam/bb-core-ui)
-- [Buy-Better Centralized proto](https://github.com/opplieam/bb-grpc)
-- [Buy-Better Product service](https://github.com/opplieam/bb-product-server)
-- ~~[Buy-Better web scraping]~~  I take down the service due to the banning issue
+- [Buy-Better Admin Frontend](https://github.com/opplieam/bb-admin-ui) *Details implementation
+- [Buy-Better Core Backend](https://github.com/opplieam/bb-core-api)
+- [Buy-Better Core Frontend](https://github.com/opplieam/bb-core-ui)
+- [Buy-Better Centralized proto/gRPC](https://github.com/opplieam/bb-grpc)
+- [Buy-Better Product Service Backend](https://github.com/opplieam/bb-product-server)
+- ~~[Buy-Better web scraping]~~ I take down the service due to the banning issue
 
 ## Overall database diagrams
 ![db-admin](https://github.com/opplieam/bb-admin-api/raw/main/Buy-Better-Admin.png?raw=true)
