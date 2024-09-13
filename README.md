@@ -2,10 +2,12 @@
 
 This is an entry point for Buy Better project. It contains the big picture of project.
 
+Looking for the source code ? Please visit [List of all repositories](#list-of-services)
+
 ## Table of contents
 - [Overview](#overview)
 - [Overall Architect](#overall-architect)
-- [LIST OF ALL REPOSITORY](#list-of-services)
+- [List of all repositories](#list-of-services)
 - [Overall database diagrams](#overall-database-diagrams)
 - [Overall Tech stack](#overall-tech-stack)
 - [Design choice](#design-choice)
