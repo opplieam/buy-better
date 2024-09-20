@@ -36,15 +36,18 @@ and the admin will set things up.
 This is not a final design.
 
 There are 3 big parts.
-1. Web scraping service
-To keep up-to-date price. Web scraping is mandatory to do automate task. collecting price from target website
-2. Buy Better Admin
-The management from users to manually matching products / category (which I design the system to collect the data and 
-prepare dataset at the same time for using in machine learning model in the future. So when the new category/item 
-being scraped, it will automatically match to the existing system)
+1. Web scraping service 
+
+To keep prices up to date, web scraping is necessary to automate the task of collecting prices from the target website.
+2. Buy Better Admin 
+
+The user management, The matching (by hand for now) category, and products from various websites. In the future, 
+It will use machine learning to automate label data.
+
 3. Buy Better Core
-This part is where the user interact for both frontend and backend. I design to be the scalable, I will talk later
-in the design choice section.
+
+This part is where the user interacts for both frontend and backend. I designed it to be scalable by using 
+gRPC to communicate between the services.,
 
 ## List of services
 - [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) *Details implementation
