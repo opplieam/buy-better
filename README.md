@@ -96,11 +96,11 @@ This project should design as a `monolith` system design pattern because there i
 `microservice` will not pay off. 
 
 BUT I make this project for the learning purpose. So I pick `distributed monolith` as a system design pattern
-So it sit between `monolith` and `microservice`. Also, have a room to learn a new things.
+So it sit between `monolith` and `microservice`.
 
-The database system design pattern part is weired because I to find the halfway point of monolith and microservice
-ends up with a questionable design. If I have to re-design, It should be like this
-  * 1 database from the beginning until `Choreography pattern` is required (event driven) or learning `message queue`, 
+The database system design pattern part is weired because I want to find the halfway point between monolith and microservice.
+It's ends up with a questionable design. If I have to re-design, It should be like this
+  * 1 database from the beginning until `Choreography pattern` is required (event driven), 
 then split database would be a good idea. 
 
 ## TO LEARN
