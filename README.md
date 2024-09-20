@@ -39,6 +39,7 @@ There are 3 big parts.
 1. Web scraping service 
 
 To keep prices up to date, web scraping is necessary to automate the task of collecting prices from the target website.
+
 2. Buy Better Admin 
 
 The user management, The matching (by hand for now) category, and products from various websites. In the future, 
