@@ -53,6 +53,7 @@ gRPC to communicate between the services.,
 ## List of services
 - [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) *Details implementation
 - [Buy-Better Admin Frontend](https://github.com/opplieam/bb-admin-ui) *Details implementation
+- [Buy-Better Notification](https://github.com/opplieam/bb-noti) * Pub/Sub, SSE, Goroutine
 - [Buy-Better Core Backend](https://github.com/opplieam/bb-core-api)
 - [Buy-Better Core Frontend](https://github.com/opplieam/bb-core-ui)
 - [Buy-Better Centralized proto/gRPC](https://github.com/opplieam/bb-grpc)
