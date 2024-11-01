@@ -32,7 +32,7 @@ and the admin will set things up.
 `NOTE: This project is for learning purpose and not fully complete yet`
 
 ## Overall architect
-![architect](https://github.com/opplieam/buy-better/blob/main/diagram.drawio.png?raw=true)
+![architect](https://raw.githubusercontent.com/opplieam/buy-better/refs/heads/main/diagram.drawio.png)
 This is not a final design.
 
 There are 3 big parts.
