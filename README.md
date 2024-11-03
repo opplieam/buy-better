@@ -51,10 +51,10 @@ This part is where the user interacts for both frontend and backend. I designed 
 gRPC to communicate between the services.,
 
 ## List of services
-- [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) *Details implementation
-- [Buy-Better Admin Frontend](https://github.com/opplieam/bb-admin-ui) *Details implementation
+- [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) * Flagship Backend
+- [Buy-Better Admin Frontend](https://github.com/opplieam/bb-admin-ui) * Flagship Frontend
 - [Buy-Better Notification](https://github.com/opplieam/bb-noti) * Pub/Sub, SSE, Goroutine
-- [Buy-Better Core Backend](https://github.com/opplieam/bb-core-api)
+- [Buy-Better Core Backend](https://github.com/opplieam/bb-core-api) * Otel, gRPC
 - [Buy-Better Core Frontend](https://github.com/opplieam/bb-core-ui)
 - [Buy-Better Centralized proto/gRPC](https://github.com/opplieam/bb-grpc)
 - [Buy-Better Product Service Backend](https://github.com/opplieam/bb-product-server)
@@ -111,6 +111,4 @@ and `microservice` approach. It resulted in a questionable design. If I were to 
 then splitting the database would be a good idea.
 
 ## TO LEARN
-- `Choreography design pattern`
-- opentelemetry / observation
-- Server Sent Event
+- Distribued System (Consensus, Service Discovery)
