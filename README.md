@@ -51,10 +51,10 @@ This part is where the user interacts for both frontend and backend. I designed 
 gRPC to communicate between the services.,
 
 ## List of services
-- [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) * Go, Gin, SQL, Jet-db, Migration, K8S, OpenAPI, etc...
+- [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) * Go, Gin, SQL, Jet-db, Migration, k8s, OpenAPI, etc...
 - [Buy-Better Admin Frontend](https://github.com/opplieam/bb-admin-ui) * Typescript, React, Mantine, React-Query, Playwright
 - [Buy-Better Notification](https://github.com/opplieam/bb-noti) * Pub/Sub (NATs jetstream), Server-Sent Events, Goroutine
-- [Buy-Better Core Backend](https://github.com/opplieam/bb-core-api) * Otel, gRPC, Orchestration pattern
+- [Buy-Better Core Backend](https://github.com/opplieam/bb-core-api) * Otel, gRPC, Helm, Orchestration pattern
 - [Buy-Better Core Frontend](https://github.com/opplieam/bb-core-ui)
 - [Buy-Better Centralized proto/gRPC](https://github.com/opplieam/bb-grpc) * Proto
 - [Buy-Better Product Service Backend](https://github.com/opplieam/bb-product-server)
