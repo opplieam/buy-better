@@ -8,6 +8,7 @@ Looking for the source code ? Please visit [List of all repositories](#list-of-s
 - [Overview](#overview)
 - [Overall Architect](#overall-architect)
 - [List of all repositories](#list-of-services)
+- [Overall CI/CD](#overall-ci/cd)
 - [Overall database diagrams](#overall-database-diagrams)
 - [Overall Tech stack](#overall-tech-stack)
 - [Design choice](#design-choice)
@@ -60,6 +61,9 @@ gRPC to communicate between the services.,
 - [Buy-Better Centralized proto/gRPC](https://github.com/opplieam/bb-grpc) * Proto
 - [Buy-Better Product Service Backend](https://github.com/opplieam/bb-product-server)
 - ~~[Buy-Better web scraping]~~ I take down the service due to the banning issue
+
+## Overall CI/CD
+![img](https://github.com/opplieam/bb-k8s-infra/raw/main/k8s.drawio.png?raw=true)
 
 ## Overall database diagrams
 ![db-admin](https://github.com/opplieam/bb-admin-api/raw/main/Buy-Better-Admin.png?raw=true)
