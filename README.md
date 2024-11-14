@@ -8,7 +8,7 @@ Looking for the source code ? Please visit [List of all repositories](#list-of-s
 - [Overview](#overview)
 - [Overall Architect](#overall-architect)
 - [List of all repositories](#list-of-services)
-- [Overall CI/CD](#overall-ci/cd)
+- [Overall CI/CD](#overall-cicd)
 - [Overall database diagrams](#overall-database-diagrams)
 - [Overall Tech stack](#overall-tech-stack)
 - [Design choice](#design-choice)
