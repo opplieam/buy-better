@@ -89,6 +89,9 @@ This is not a final design.
   * kustomize
   * minikube
   * bitnami seal secrets
+- Helm
+- ArgoCD
+- Githubs Action
 ### Backend
 - Go
   * gin
@@ -99,9 +102,12 @@ This is not a final design.
   * goth (Oauth)
 - go-migrate
 - mockery
-- proto / GRPC
-- openapi v3 
+- proto / gRPC
+- openapi
 - postgres db
+- Otel
+- SSE
+- NATs Jetstream
 
 ## Design choice
 This project should be designed as a `monolith` system design pattern because there is only 1 developer, 
