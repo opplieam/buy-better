@@ -54,8 +54,8 @@ gRPC to communicate between the services.,
 ## List of services
 - [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) * Go, Gin, SQL, Jet-db, Migration, k8s, OpenAPI, etc...
 - [Buy-Better Admin Frontend](https://github.com/opplieam/bb-admin-ui) * Typescript, React, Mantine, React-Query, Playwright
-- [Buy-Better Notification](https://github.com/opplieam/bb-noti) * Pub/Sub (NATs jetstream), SSE, Goroutine
-- [Buy-Better Core Backend](https://github.com/opplieam/bb-core-api) * Otel, gRPC, Helm, Githubs Actions
+- [Buy-Better Notification](https://github.com/opplieam/bb-dist-noti) * SSE, NATs, Distributed System, Raft
+- [Buy-Better Core Backend](https://github.com/opplieam/bb-core-api) * Otel, gRPC, Helm, Github Actions
 - [Buy-Better K8S Infrastructure](https://github.com/opplieam/bb-k8s-infra) ArgoCD
 - [Buy-Better Core Frontend](https://github.com/opplieam/bb-core-ui)
 - [Buy-Better Centralized proto/gRPC](https://github.com/opplieam/bb-grpc) * Proto
