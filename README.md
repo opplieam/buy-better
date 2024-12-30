@@ -55,8 +55,9 @@ gRPC to communicate between the services.,
 - [Buy-Better Admin Backend](https://github.com/opplieam/bb-admin-api) * Go, Gin, SQL, Jet-db, Migration, k8s, OpenAPI, etc...
 - [Buy-Better Admin Frontend](https://github.com/opplieam/bb-admin-ui) * Typescript, React, Mantine, React-Query, Playwright
 - [Buy-Better Notification](https://github.com/opplieam/bb-dist-noti) * SSE, NATs, Distributed System, Raft
+- [Buy-Better Transform](https://github.com/opplieam/bb-transform) * AWS lambda, SQS, Go, Terraform, Supabase, Serverless
 - [Buy-Better Core Backend](https://github.com/opplieam/bb-core-api) * Otel, gRPC, Helm, Github Actions
-- [Buy-Better K8S Infrastructure](https://github.com/opplieam/bb-k8s-infra) ArgoCD
+- [Buy-Better K8S Infrastructure](https://github.com/opplieam/bb-k8s-infra) ArgoCD, Terraform, GKE
 - [Buy-Better Core Frontend](https://github.com/opplieam/bb-core-ui)
 - [Buy-Better Centralized proto/gRPC](https://github.com/opplieam/bb-grpc) * Proto
 - [Buy-Better Product Service Backend](https://github.com/opplieam/bb-product-server)
@@ -82,44 +83,25 @@ This is not a final design.
     * Mantine
     * React-router
   * Playwright
-  * Swagger UI
 ### Infrastructure
 - Docker / docker-compose
-- k8s
-  * kustomize
-  * minikube
-  * bitnami seal secrets
+- Kubernetes
 - Helm
 - ArgoCD
 - Githubs Action
+- Terraform
+- AWS - Lambda, SQS
+- GCP - GKE
 ### Backend
-- Go
-  * gin
-  * paseto
-  * testify
-  * jet-db
-  * dockertest
-  * goth (Oauth)
+- Go (Golang)
 - go-migrate
-- mockery
-- proto / gRPC
-- openapi
-- postgres db
+- Mockery
+- Testify
+- Proto / gRPC
+- Postgres (supabase)
 - Otel
 - SSE
+- Raft, Serf
+- Goroutine
 - NATs Jetstream
 
-## Design choice
-This project should be designed as a `monolith` system design pattern because there is only 1 developer, 
-and the cost of a `microservice` will not pay off. However, since I am building this project for learning purposes, 
-I have chosen to implement a `distributed monolith` as a system design pattern. 
-This approach sits between a `monolith` and a `microservice`.
-
-The database system design pattern part is confusing because I want to find a balance between a `monolithic` 
-and `microservice` approach. It resulted in a questionable design. If I were to redesign it, I would do it like this:
-
-* Start with one database until the `Choreography pattern` is required (event-driven), 
-then splitting the database would be a good idea.
-
-## TO LEARN
-- Distribued System (Consensus, Service Discovery)
